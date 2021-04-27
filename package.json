@@ -1,0 +1,20 @@
+{
+  "name": "jamstack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksei24/jamstack-test.git"
+  },
+  "keywords": [],
+  "author": "Alexey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksei24/jamstack-test/issues"
+  },
+  "homepage": "https://github.com/aleksei24/jamstack-test#readme"
+}
