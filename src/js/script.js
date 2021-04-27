@@ -22,4 +22,6 @@ const randomPhrase =
     vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
 
 const vibe = document.querySelector('.vibe');
-vibe.append(randomPhrase);
+if (vibe) {
+    vibe.append(randomPhrase);
+}
