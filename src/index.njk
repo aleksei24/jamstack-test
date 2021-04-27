@@ -3,9 +3,14 @@ title: Index page
 layout: base.njk
 ---
 
-
 <div class="wrapper">
     <h1>Index Page</h1>
     <div class="vibe"></div>
+
+    <ul>
+    {% for article in news.articles %}
+        <li>{{article.title}}</li>
+    {% endfor %}
+    </ul>
 </div>
 <script src="./js/script.js"></script>
