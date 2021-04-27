@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/aleksei24/jamstack-test/issues"
   },
-  "homepage": "https://github.com/aleksei24/jamstack-test#readme"
+  "homepage": "https://github.com/aleksei24/jamstack-test#readme",
+  "dependencies": {}
 }
