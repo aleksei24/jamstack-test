@@ -1,0 +1,25 @@
+---
+title: Daily Briefing
+layout: base.njk
+pagination:
+    data: news
+    size: 1
+    alias: news
+permalink: /local/{{ news.country }}/local.html
+---
+
+<div class="wrapper">
+    <h1>Daily Briefing</h1>
+
+    <ul>
+    {% for article in news.articles %}
+        <li>
+            <h3>
+                <a href="{{article.url}}" target="_blank">{{article.title}}</a>
+                <span>{{article.source.name}}</span>
+            <h3>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+<script src="/js/script.js"></script>
