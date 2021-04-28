@@ -5,5 +5,9 @@ layout: base.njk
 
 <div class="wrapper">
     <h1>About Page</h1>
+    {% for item in news %}
+        <a href="/local/{{item.country}}.html">{{item.country}}</a>
+    {% endfor %}
 </div>
+
 <script src="/js/script.js"></script>
