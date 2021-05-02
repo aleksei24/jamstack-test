@@ -2,6 +2,12 @@
 permalink: _redirects
 ---
 
-{% for item in news %}
+/   /local/ph.html  200  Language=ph
+
+
+{%- for item in news %}
 /   /local/{{item.country}}.html 200  Country={{item.country}}
-{% endfor %}
+{%- endfor %}
+
+
+/   /local.ae.html  404
