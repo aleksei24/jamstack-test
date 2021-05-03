@@ -1,5 +1,5 @@
 const axios = require('axios');
-const countries = require('./countries.json');
+const countries = require('./development.json');
 require('dotenv').config();
 
 async function getNews(country) {
