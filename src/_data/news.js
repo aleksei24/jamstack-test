@@ -1,4 +1,4 @@
-const axios = require('axios');
+/*const axios = require('axios');
 const countries = require('./development.json');
 require('dotenv').config();
 
@@ -20,3 +20,4 @@ module.exports = async function () {
         return [].concat.apply([], newsObjects);
     });
 };
+*/
