@@ -17,5 +17,7 @@
     "url": "https://github.com/aleksei24/jamstack-test/issues"
   },
   "homepage": "https://github.com/aleksei24/jamstack-test#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
 }
