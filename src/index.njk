@@ -9,7 +9,12 @@ layout: base.njk
 
     <ul>
     {% for article in news.articles %}
-        <li>{{ article.title }}</li>
+        <li>
+            <h3>
+                <a href='{{article.url}}' target='_blank'>{{ article.title }}</a>
+                <span>{{article.source.name}}</span>
+            </h3>
+        </li>
     {% endfor %}
     </ul>
 
