@@ -9,7 +9,7 @@ async function getNews(country) {
         );
         return {
             country: country,
-            articles: responce.data.articles,
+            articles: response.data.articles,
         };
     } catch (error) {
         console.error(error);
