@@ -1,9 +1,10 @@
 const axios = require('axios');
+require('dotenv').config();
 
 module.exports = async function getUser() {
     try {
         const response = await axios.get(
-            `https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${process.env.API_KEY}&pageSize=10`
+            `https://newsapi.org/v2/top-headlines?country=gb&apiKey=${process.env.API_KEY}`
         );
         return response.data;
     } catch (error) {
