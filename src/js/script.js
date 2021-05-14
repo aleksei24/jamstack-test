@@ -18,8 +18,7 @@ const vibes = [
     'Where there’s a will, there’s a way',
 ];
 
-const randomPhrase =
-    vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
+const randomPhrase = vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
 
 const vibe = document.querySelector('.vibe');
 if (vibe) {
