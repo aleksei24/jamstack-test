@@ -5,48 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{{ title }}</title>
-        <style>
-            *,
-            *::before,
-            *::after {
-                box-sizing: border-box;
-                position: relative;
-                padding: 0;
-                border: 0;
-                margin: 0;
-                list-style-type: none;
-                text-decoration: none;
-            }
-            body {
-                font-size: 16px;
-                background-color: white;
-                font-family: serif;
-                padding: 50px 20px;
-                text-align: center;
-                max-width:400px;
-                margin:0 auto;
-            }
-            a {
-                text-decoration: none;
-                color: red;
-                cursor: pointer;
-            }
-            .vibe{
-                margin-bottom:30px;
-                color:green;
-                font-size:21px;
-                font-weight:700;
-            }
-            li>span{
-                font-size:12px;
-                color:gray;
-            }
-        </style>
+        <link rel="stylesheet" href="{{ '../css/style.css' | url }}">
     </head>
     <body>
-    <header>
-        <a href="/">Home</a> | <a href="/about">About</a>
-    </header>
         {{ content | safe }}
     </body>
 </html>
