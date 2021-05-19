@@ -32,14 +32,15 @@ a {
     background-color: #fff;
     display: block;
     margin: 0 auto;
+    border: 2px solid gray;
     border-radius: 10px;
     padding-bottom: 50px;
 }
 .vibe {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: green;
-    font-size: 21px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
 }
 .app-title {
     width: 300px;
@@ -54,4 +55,72 @@ a {
     font-size: 24px;
     font-weight: 700;
     color: #293251;
+}
+.notification p {
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.weather-container {
+    width: 100%;
+    height: auto;
+    background-color: #f4f9ff;
+}
+.app-icon {
+    width: 300px;
+    height: 128px;
+}
+.app-icon img {
+    display: block;
+    margin: 0 auto;
+}
+.app-temperature {
+    width: 300px;
+    height: 90px;
+}
+.app-temperature p {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+.app-temperature span {
+    color: #293251;
+    font-size: 0.5em;
+}
+.app-wind {
+    width: 300px;
+}
+.app-wind p.app-wind-direction,
+.app-wind p.app-wind-power {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.app-wind-direction span,
+.app-wind-power span {
+    color: #293251;
+    font-size: 0.5em;
+}
+.app-description p {
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+.location p {
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.1em;
 }
