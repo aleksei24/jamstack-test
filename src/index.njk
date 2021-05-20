@@ -5,25 +5,27 @@ layout: base.njk
 
 <div class="wrapper">
     <div class="app-title">
-        <p>weather</p>
+        <p>Погода</p>
     </div>
-    <div class="vibe"></div>
+    <div class="location">
+        <p>-</p>
+    </div>
     <div class="notification"></div>
     <div class="weather-container">
-        <div class="app-icon">
-            <img src="img/unknown.png" alt="unknown" />
-        </div>
         <div class="app-temperature">
+            Средняя температура за день
+            <p>-°<span>C</span></p>
+        </div>
+        <div class="app-temp-feel">
+            Ощущается как 
             <p>-°<span>C</span></p>
         </div>
         <div class="app-wind">
+            Ветер
             <p class="app-wind-direction">- <span></span></p>
             <p class="app-wind-power">- <span>m/s</span></p>
         </div>
         <div class="app-description">
-            <p>-</p>
-        </div>
-        <div class="location">
             <p>-</p>
         </div>
     </div>
