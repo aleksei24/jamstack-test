@@ -1,30 +1,3 @@
-const vibes = [
-    'Your pain today will be your strength tomorrow',
-    'One thing at a time',
-    'We are what we repeatedly do',
-    'Actions speak louder than words',
-    'A journey of thousand miles begins with a single step',
-    'An apple a day keeps the doctor away',
-    'Better late than never',
-    'Clothes do not make the man',
-    'Cowards die many times before their deaths',
-    'Don’t judge a book by its cover',
-    'Every cloud has a silver lining',
-    'Fall seven times. Stand up eight',
-    'If it ain’t broke, don’t fix it',
-    'Never put off until tomorrow what you can do today',
-    'Practice makes perfect',
-    'When in Rome, do as the Romans do',
-    'Where there’s a will, there’s a way',
-];
-
-const randomPhrase = vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
-
-// const vibe = document.querySelector('.vibe');
-// if (vibe) {
-//     vibe.append(randomPhrase);
-// }
-
 // weather
 
 function success(pos) {
@@ -39,8 +12,7 @@ function success(pos) {
     const weather = {};
     const today = new Date();
 
-    const API_KEY = '661c131d068db039c2f3b25693cc1934';
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${pos.coords.latitude}&lon=${pos.coords.longitude}&appid=${API_KEY}&units=metric&lang=ru`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${pos.coords.latitude}&lon=${pos.coords.longitude}&appid=${process.env.API_KEY}&units=metric&lang=ru`;
 
     fetch(url)
         .then((response) => {
