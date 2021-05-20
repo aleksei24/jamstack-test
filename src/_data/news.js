@@ -1,1 +1,3 @@
-console.log('HELLO');
+const axios = require('axios');
+
+require('dotenv').config();

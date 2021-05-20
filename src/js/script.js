@@ -12,7 +12,7 @@ function success(pos) {
     const weather = {};
     const today = new Date();
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${pos.coords.latitude}&lon=${pos.coords.longitude}&appid=${process.env.API_KEY}&units=metric&lang=ru`;
+    const url = `/.netlify/functions/weatherapi?lat=${pos.coords.latitude}&lon=${pos.coords.longitude}&units=metric&lang=ru`;
 
     fetch(url)
         .then((response) => {
