@@ -21,7 +21,7 @@
   "homepage": "https://github.com/aleksei24/jamstack-test#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "dotenv": "^9.0.2"
   }
 }
