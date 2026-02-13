@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/aleksei24/jamstack-test#readme",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "axios": "^1.7.4",
     "dotenv": "^9.0.2"
   }
